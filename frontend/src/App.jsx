@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const apiUrl =
-    import.meta.env.VITE_API_URL || 'https://YOUR-GATEWAY-URL.azurecontainerapps.io';
+    import.meta.env.VITE_API_URL || 'https://gateway.delightfulstone-3bc74594.eastasia.azurecontainerapps.io';
 
   const fetchGateway = async () => {
     setLoading(true);
